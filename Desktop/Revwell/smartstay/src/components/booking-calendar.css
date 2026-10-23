@@ -1,0 +1,47 @@
+
+.smartstay-date-wrapper {
+  width: 100%;
+}
+
+.smartstay-date-input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #dce2e9;
+  background: #f8fafc;
+  padding: 14px;
+  border-radius: 9px;
+  color: #10233f;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.smartstay-date-input:focus {
+  outline: 2px solid #c69c43;
+  border-color: #c69c43;
+}
+
+.react-datepicker {
+  font-family: Arial, sans-serif;
+  border-radius: 12px;
+  border-color: #e5eaf0;
+  overflow: hidden;
+}
+
+.react-datepicker__header {
+  background: #10233f;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  color: white;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--keyboard-selected {
+  background: #c69c43;
+  color: #10233f;
+}
+
+.react-datepicker__day--selected:hover {
+  background: #b68a35;
+}
